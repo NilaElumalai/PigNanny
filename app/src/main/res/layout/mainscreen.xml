@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -21,9 +24,10 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="450dp"
-        android:layout_height="353dp"
+        android:layout_height="337dp"
         android:layout_gravity="center"
-        android:layout_weight="0.07" />
+        android:paddingTop="30dp"
+        android:src="@drawable/healthypig1" />
 
     <Space
         android:layout_width="match_parent"
@@ -33,13 +37,12 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.03"
+        android:layout_height="68dp"
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
         android:style="@style/CodeFont"
-        android:text="Name"
+        android:text="Poe"
         android:textSize="50sp" />
 
 </LinearLayout>
