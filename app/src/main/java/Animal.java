@@ -19,9 +19,12 @@ public class Animal {
 
     public void setHealth(int h){
         health = h;
+        determineState();
     }
 
     public void determineState(){
 
     }
+
+
 }
